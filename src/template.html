@@ -10,7 +10,7 @@
 <body>
 
     <div class="container">
-        <form action="#" method="post" id="testform" novalidate>
+        <form action="#" method="" id="testform" novalidate>
             <div class="entry">
                 <label for="email">Email: </label>
                 <input type="email" name="email" id="email" placeholder="email@domain.com" required minlength="1">
@@ -19,27 +19,30 @@
 
             <div class="entry">
                 <label for="country">Country: </label>
-                <input type="text" name="country" id="country" placeholder="Country" required minlength="1">
+                <input type="text" name="country" id="country" placeholder="Country" required minlength="3">
                 <span class="error" aria-live="polite"></span>
             </div>
 
             <div class="entry">
                 <label for="postalcode">Postal Code: </label>
-                <input type="text" name="postalcode" id="postalcode" placeholder="Postal Code" required minlength="1">
+                <input type="text" name="postalcode" id="postalcode" placeholder="Postal Code" required minlength="3">
                 <span class="error" aria-live="polite"></span>
             </div>
 
             <div class="entry">
                 <label for="password">Password: </label>
-                <input type="password" name="password" id="password" placeholder="Enter password" required minlength="1">
+                <input type="password" name="password" id="password" placeholder="Enter password" required minlength="8">
                 <span class="error" aria-live="polite"></span>
             </div>
 
             <div class="entry">
                 <label for="passwordrepeat">Re-Enter password: </label>
-                <input type="password" name="passwordrepeat" id="passwordrepeat" placeholder="Re-enter password" required minlength="1">
+                <input type="password" name="passwordrepeat" id="passwordrepeat" placeholder="Re-enter password" required minlength="8">
                 <span class="error" aria-live="polite"></span>
             </div>
+                        <p></p>
+            <button id="submit">Submit</button>
+
     </div>
 
 </body>
